@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Light Pink background */
+    color: #4a148c; /* Deep Purple text */
+}
+
+header {
+    background-color: #f8bbd0; /* Light Pink header background */
+    color: #4a148c; /* Deep Purple header text */
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #4a148c; /* Deep Purple nav links */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #6a1b9a; /* Slightly darker purple on hover */
+}
+
+h1, h2 {
+    color: #4a148c; /* Deep Purple for headings */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ce93d8; /* Light Purple background for hero section */
+    color: #ffffff; /* White text in hero section */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero a.shop-now {
+    background-color: #f48fb1; /* Light Pink button */
+    color: #4a148c; /* Deep Purple text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero a.shop-now:hover {
+    background-color: #ec407a; /* Darker Pink on hover */
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #f3e5f5; /* Very light purple */
+    border: 1px solid #ce93d8; /* Light Purple border */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    margin: 15px;
+}
+
+.product-card h3 {
+    color: #6a1b9a; /* Medium purple */
+}
+
+.product-card p {
+    color: #4a148c; /* Deep Purple */
+}
+
+.product-card button {
+    background-color: #f48fb1; /* Light Pink */
+    color: #4a148c; /* Deep Purple text */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #ec407a; /* Darker pink */
+}
+
+/* Video Section */
+.video-section {
+    background-color: #e1bee7; /* Very light purple */
+    color: #4a148c; /* Deep Purple */
+    text-align: center;
+    padding: 40px;
+}
+
+/* Payment Form */
+.payment {
+    background-color: #f3e5f5; /* Very light purple for the payment section */
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.payment form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #4a148c; /* Deep Purple labels */
+}
+
+.payment input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ce93d8; /* Light Purple borders */
+    border-radius: 5px;
+    background-color: #f8bbd0; /* Light Pink input background */
+    color: #4a148c; /* Deep Purple text */
+}
+
+.payment input[type="text"]:focus {
+    outline: none;
+    border-color: #6a1b9a; /* Darker purple on focus */
+}
+
+.payment button {
+    background-color: #f48fb1; /* Light Pink button */
+    color: #4a148c; /* Deep Purple text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment button:hover {
+    background-color: #ec407a; /* Darker pink */
+}
+
+/* Footer */
+footer {
+    background-color: #f8bbd0; /* Light Pink */
+    color: #4a148c; /* Deep Purple */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Utility Classes */
+.center-content {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.button-primary {
+    background-color: #f48fb1; /* Light Pink */
+    color: #4a148c; /* Deep Purple */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #ec407a; /* Darker pink on hover */
+}
+
+section {
+    padding: 40px 0;
+}
+
+a {
+    color: #4a148c;
+}
+
+a:hover {
+    color: #6a1b9a;
+}
