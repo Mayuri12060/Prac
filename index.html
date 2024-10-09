@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y59VWM8NW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y59VWM8NW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        gtag('config', 'G-0Y59VWM8NW');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WLBMK83R');</script>
-    <!-- End Google Tag Manager -->
+  gtag('config', 'G-0Y59VWM8NW');
+</script>
+     <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLBMK83R');</script>
+<!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bake Cake - Delicious Chocolates & Cakes</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+
+
+   
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLBMK83R"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLBMK83R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <!-- Header Section -->
     <header>
         <h1>Welcome to Bake Cake</h1>
@@ -50,38 +53,36 @@
             <div class="product-card">
                 <h3>Chocolate Truffle Cake</h3>
                 <p>$25.99</p>
-                <button class="add-to-cart" onclick="gtag('event', 'add_to_cart', { items: [{ item_id: 'cake_01', item_name: 'Chocolate Truffle Cake', item_brand: 'Bake Cake', item_category: 'Cakes', price: 25.99, quantity: 1 }] });">Add to Cart</button>
+                <button class="add-to-cart" data-product="Chocolate Truffle Cake" data-price="25.99">Add to Cart</button>
             </div>
             <div class="product-card">
                 <h3>Assorted Chocolate Box</h3>
                 <p>$19.99</p>
-                <button class="add-to-cart" onclick="gtag('event', 'add_to_cart', { items: [{ item_id: 'choco_01', item_name: 'Assorted Chocolate Box', item_brand: 'Bake Cake', item_category: 'Chocolates', price: 19.99, quantity: 1 }] });">Add to Cart</button>
+                <button class="add-to-cart" data-product="Assorted Chocolate Box" data-price="19.99">Add to Cart</button>
             </div>
             <div class="product-card">
                 <h3>Red Velvet Cake</h3>
                 <p>$29.99</p>
-                <button class="add-to-cart" onclick="gtag('event', 'add_to_cart', { items: [{ item_id: 'cake_02', item_name: 'Red Velvet Cake', item_brand: 'Bake Cake', item_category: 'Cakes', price: 29.99, quantity: 1 }] });">Add to Cart</button>
+                <button class="add-to-cart" data-product="Red Velvet Cake" data-price="29.99">Add to Cart</button>
             </div>
         </div>
-        <script>
-            gtag("event", "select_item", {
-                item_list_id: "bestsellers",
-                item_list_name: "Bestselling Treats",
-                items: [
-                    { item_id: "cake_01", item_name: "Chocolate Truffle Cake", item_brand: "Bake Cake", item_category: "Cakes", price: 25.99 },
-                    { item_id: "choco_01", item_name: "Assorted Chocolate Box", item_brand: "Bake Cake", item_category: "Chocolates", price: 19.99 },
-                    { item_id: "cake_02", item_name: "Red Velvet Cake", item_brand: "Bake Cake", item_category: "Cakes", price: 29.99 }
-                ]
-            });
-        </script>
     </section>
 
-    <!-- Downloadable Policy Section -->
+    <!-- Video Section -->
+    <section class="video-section">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/G-UW9Dbz6ik?si=oSTLwo5EYDufx4Ce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+
+   <!-- Downloadable Policy Section -->
     <section id="policy">
         <h2>Policy</h2>
         <p>Download our company policy:</p>
         <a href="Bake Cake - Policy Summary.pdf" download>Download Policy PDF</a>
-    </section>
+    </section>
+
+
+
 
     <!-- Footer -->
     <footer>
