@@ -90,3 +90,174 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </footer>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y59VWM8NW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-0Y59VWM8NW', { 'debug_mode': true });
+    </script>
+</head>
+<body>
+    <div>Click the buttons for custom events</div>
+
+    <!-- Select Item button -->
+    <button id="select-item">Select Item</button>
+
+    <!-- Add to Cart button -->
+    <button id="add-to-cart">Add to Cart</button>
+
+    <!-- View Item List button -->
+    <button id="view-item-list">View Item List</button>
+
+    <!-- Begin Checkout button -->
+    <button id="begin-checkout">Begin Checkout</button>
+
+    <!-- Remove from Cart button -->
+    <button id="remove-from-cart">Remove from Cart</button>
+
+    <script>
+    // Event for selecting an item
+    document.getElementById("select-item").addEventListener("click", function () {
+        gtag("event", "select_item", {
+            item_list_id: "bestsellers",
+            item_list_name: "Bestselling Treats",
+            items: [
+            {
+              item_id: "cake_01",
+              item_name: "Chocolate Truffle Cake",
+              affiliation: "Bake Cake",
+              coupon: "SWEET_TREAT",
+              discount: 2.00,
+              index: 0,
+              item_brand: "Bake Cake",
+              item_category: "Cakes",
+              item_category2: "Desserts",
+              item_category3: "Chocolate Cakes",
+              item_category4: "Birthday Special",
+              item_category5: "Rich & Creamy",
+              item_variant: "Regular",
+              location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+              price: 25.99,
+              quantity: 1
+            }]
+        });
+    });
+
+    // Event for adding an item to the cart
+    document.getElementById("add-to-cart").addEventListener("click", function () {
+        gtag("event", "add_to_cart", {
+            currency: "USD",
+            value: 25.99,
+            items: [
+            {
+              item_id: "cake_01",
+              item_name: "Chocolate Truffle Cake",
+              affiliation: "Bake Cake",
+              coupon: "SWEET_TREAT",
+              discount: 2.00,
+              index: 0,
+              item_brand: "Bake Cake",
+              item_category: "Cakes",
+              item_category2: "Desserts",
+              item_category3: "Chocolate Cakes",
+              item_category4: "Birthday Special",
+              item_category5: "Rich & Creamy",
+              item_variant: "Regular",
+              location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+              price: 25.99,
+              quantity: 1
+            }]
+        });
+    });
+
+    // Event for viewing an item list
+    document.getElementById("view-item-list").addEventListener("click", function () {
+        gtag("event", "view_item_list", {
+            item_list_id: "bestsellers",
+            item_list_name: "Bestselling Treats",
+            items: [
+            {
+              item_id: "cake_01",
+              item_name: "Chocolate Truffle Cake",
+              affiliation: "Bake Cake",
+              coupon: "SWEET_TREAT",
+              discount: 2.00,
+              index: 0,
+              item_brand: "Bake Cake",
+              item_category: "Cakes",
+              item_category2: "Desserts",
+              item_category3: "Chocolate Cakes",
+              item_category4: "Birthday Special",
+              item_category5: "Rich & Creamy",
+              item_variant: "Regular",
+              location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+              price: 25.99,
+              quantity: 1
+            }]
+        });
+    });
+
+    // Event for beginning checkout process
+    document.getElementById("begin-checkout").addEventListener("click", function () {
+        gtag("event", "begin_checkout", {
+            currency: "USD",
+            value: 25.99,
+            coupon: "SWEET_TREAT",
+            items: [
+            {
+              item_id: "cake_01",
+              item_name: "Chocolate Truffle Cake",
+              affiliation: "Bake Cake",
+              coupon: "SWEET_TREAT",
+              discount: 2.00,
+              index: 0,
+              item_brand: "Bake Cake",
+              item_category: "Cakes",
+              item_category2: "Desserts",
+              item_category3: "Chocolate Cakes",
+              item_category4: "Birthday Special",
+              item_category5: "Rich & Creamy",
+              item_variant: "Regular",
+              location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+              price: 25.99,
+              quantity: 1
+            }]
+        });
+    });
+
+    // Event for removing an item from the cart
+    document.getElementById("remove-from-cart").addEventListener("click", function () {
+        gtag("event", "remove_from_cart", {
+            currency: "USD",
+            value: 25.99,
+            items: [
+            {
+              item_id: "cake_01",
+              item_name: "Chocolate Truffle Cake",
+              affiliation: "Bake Cake",
+              coupon: "SWEET_TREAT",
+              discount: 2.00,
+              index: 0,
+              item_brand: "Bake Cake",
+              item_category: "Cakes",
+              item_category2: "Desserts",
+              item_category3: "Chocolate Cakes",
+              item_category4: "Birthday Special",
+              item_category5: "Rich & Creamy",
+              item_variant: "Regular",
+              location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+              price: 25.99,
+              quantity: 1
+            }]
+        });
+    });
+    </script>
+</body>
+</html>
